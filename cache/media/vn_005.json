@@ -1,0 +1,8 @@
+{
+  "kind": "voice_note",
+  "text": "Check out error rates are spiking again. Please join the incident bridge now. Payments are failing for live users.",
+  "summary": "The speaker reports spiking checkout error rates and failing payments for live users, urging listeners to join the incident bridge.",
+  "topic": "Payment issues",
+  "asks_for_sensitive_action": false,
+  "media_id": "vn_005"
+}

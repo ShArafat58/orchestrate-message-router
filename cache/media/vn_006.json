@@ -1,0 +1,8 @@
+{
+  "kind": "voice_note",
+  "text": "Can you check the onboarding doc tomorrow morning? Nothing urgent. I just want your comments before lunch.",
+  "summary": "The speaker wants the recipient to check an onboarding document and provide comments by tomorrow lunch.",
+  "topic": "Onboarding doc",
+  "asks_for_sensitive_action": false,
+  "media_id": "vn_006"
+}

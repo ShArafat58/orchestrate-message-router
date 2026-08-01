@@ -1,0 +1,8 @@
+{
+  "kind": "voice_note",
+  "text": "Your bank account will be blocked today. Share the OTP you received so we can complete verification immediately.",
+  "summary": "The speaker warns that the bank account will be blocked and asks for an OTP to complete verification.",
+  "topic": "OTP request",
+  "asks_for_sensitive_action": true,
+  "media_id": "vn_008"
+}
