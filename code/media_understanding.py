@@ -72,6 +72,7 @@ class MediaUnderstanding:
     def __init__(self, cache_dir=CACHE_DIR):
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
+        self.offline = False  # when True (or no GEMINI key), a cache miss returns fallback instead of calling the API
 
     def _cache_file(self, media_id):
         return self.cache_dir / f"{media_id}.json"
@@ -83,6 +84,8 @@ class MediaUnderstanding:
         cf = self._cache_file(media_id)
         if cf.exists():
             return json.loads(cf.read_text(encoding="utf-8"))
+        if self.offline or not os.environ.get("GEMINI_API_KEY"):
+            return dict(_FALLBACK)  # cache-only mode: no API call, degrade gracefully
         result = self._describe(media_type, path)
         result["media_id"] = media_id
         cf.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")

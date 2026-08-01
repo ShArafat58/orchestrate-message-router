@@ -1,111 +1,111 @@
 message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_023,,,,,
-msg_091,,,,,
-msg_090,,,,,
-msg_048,,,,,
-msg_040,,,,,
-msg_075,,,,,
-msg_005,,,,,
-msg_104,,,,,
-msg_069,,,,,
-msg_107,,,,,
-msg_070,,,,,
-msg_003,,,,,
-msg_099,,,,,
-msg_008,,,,,
-msg_092,,,,,
-msg_060,,,,,
-msg_004,,,,,
-msg_030,,,,,
-msg_045,,,,,
-msg_052,,,,,
-msg_009,,,,,
-msg_071,,,,,
-msg_016,,,,,
-msg_065,,,,,
-msg_038,,,,,
-msg_086,,,,,
-msg_014,,,,,
-msg_094,,,,,
-msg_029,,,,,
-msg_105,,,,,
-msg_002,,,,,
-msg_010,,,,,
-msg_078,,,,,
-msg_013,,,,,
-msg_018,,,,,
-msg_044,,,,,
-msg_032,,,,,
-msg_106,,,,,
-msg_006,,,,,
-msg_109,,,,,
-msg_108,,,,,
-msg_019,,,,,
-msg_088,,,,,
-msg_056,,,,,
-msg_027,,,,,
-msg_050,,,,,
-msg_083,,,,,
-msg_063,,,,,
-msg_033,,,,,
-msg_061,,,,,
-msg_020,,,,,
-msg_017,,,,,
-msg_058,,,,,
-msg_026,,,,,
-msg_047,,,,,
-msg_046,,,,,
-msg_042,,,,,
-msg_079,,,,,
-msg_098,,,,,
-msg_037,,,,,
-msg_007,,,,,
-msg_085,,,,,
-msg_001,,,,,
-msg_021,,,,,
-msg_028,,,,,
-msg_012,,,,,
-msg_064,,,,,
-msg_103,,,,,
-msg_031,,,,,
-msg_057,,,,,
-msg_087,,,,,
-msg_067,,,,,
-msg_039,,,,,
-msg_082,,,,,
-msg_066,,,,,
-msg_049,,,,,
-msg_015,,,,,
-msg_051,,,,,
-msg_097,,,,,
-msg_089,,,,,
-msg_053,,,,,
-msg_059,,,,,
-msg_024,,,,,
-msg_072,,,,,
-msg_036,,,,,
-msg_076,,,,,
-msg_055,,,,,
-msg_102,,,,,
-msg_080,,,,,
-msg_093,,,,,
-msg_034,,,,,
-msg_035,,,,,
-msg_101,,,,,
-msg_041,,,,,
-msg_011,,,,,
-msg_110,,,,,
-msg_095,,,,,
-msg_074,,,,,
-msg_073,,,,,
-msg_054,,,,,
-msg_068,,,,,
-msg_100,,,,,
-msg_062,,,,,
-msg_096,,,,,
-msg_043,,,,,
-msg_077,,,,,
-msg_081,,,,,
-msg_025,,,,,
-msg_084,,,,,
-msg_022,,,,,
+msg_023,digest,business_update,Verified business account update from an active bank account,0.9,message_0243;message_0102;message_0101
+msg_091,mute,scam,"Unverified sender asks for a login code, indicating a potential phishing attempt.",0.9,message_0238;message_0381
+msg_090,digest,personal,casual one-to-one chat from an unfamiliar sender,0.9,none
+msg_048,mute,scam,Admin notice with urgent payment demand from an unverified sender,0.9,message_0151;message_0150;message_0149
+msg_040,mute,forward,High forwarded_count chain message from a muted group,0.9,message_0136;message_0259;message_0135
+msg_075,digest,business_update,Verified business sending a routine update to a user who has engaged with the sender in the past.,0.9,message_0206;message_0205
+msg_005,notify,personal,Direct mention of the user in a group conversation,1.0,message_0065;message_0231;message_0095
+msg_104,digest,personal,casual one-to-one chat with a known sender,0.9,message_0050;message_0224;message_0232
+msg_069,mute,greeting,High forwarded_count and user muted this group,0.9,message_0193;message_0177;message_0042
+msg_107,mute,scam,Sender's domain does not match official domain and asks for OTP verification,1.0,message_0213;message_0056;message_0195
+msg_070,mute,scam,Sender's domain does not match official domain and asks for urgent verification,1.0,message_0369;message_0213;message_0056
+msg_003,digest,business_update,Verified business sending order update matching user's recent activity,0.9,message_0031;message_0400;message_0061
+msg_099,digest,personal,trusted sender with a non-urgent personal update,0.9,message_0227;message_0249;message_0117
+msg_008,digest,promotion,Verified business with matching domain sending a promotion to a user who has engaged with their past messages,0.9,message_0296;message_0072;message_0071
+msg_092,digest,business_update,Verified business sending a routine account update,0.9,none
+msg_060,notify,event,Trusted group admin sending a time-sensitive group update,1.0,message_0284;message_0176;message_0375
+msg_004,digest,business_update,Verified business with matching domain sending a routine update,0.9,message_0245;message_0005;message_0064
+msg_030,mute,promotion,"User has muted, dismissed, or opted out of this sender's messages.",0.85,message_0115;message_0335;message_0050
+msg_045,digest,business_update,Verified business with matching domain sending a delivery update,0.9,message_0145;message_0146
+msg_052,mute,scam,Sender domain does not match the brand's official domain (lookalike phishing).,0.95,message_0207;message_0159;message_0208
+msg_009,mute,greeting,"User has muted, dismissed, or opted out of this sender's messages.",0.9,message_0074;message_0073
+msg_071,digest,personal,casual group chat from an active contact,0.9,message_0197;message_0198
+msg_016,mute,scam,Domain mismatch and urgent verification pressure,1.0,message_0024;message_0087;message_0183
+msg_065,digest,promotion,Promotion from an active business account with no safety risk signals,0.9,message_0261;message_0185;message_0186
+msg_038,mute,forward,High forwarded_count chain message from a sender the user has muted before,0.9,message_0131;message_0132
+msg_086,notify,business_update,Verified business with domain mismatch sending order update matching user's recent activity,0.9,message_0222
+msg_014,mute,promotion,User opted out of food promotions and has dismissed all previous messages from this sender.,1.0,message_0017;message_0258;message_0018
+msg_094,digest,promotion,"Verified business with no safety risk, but user has no prior relationship with the business.",0.8,none
+msg_029,digest,promotion,Promotion from a familiar sender in a marketplace group,0.9,message_0095;message_0113;message_0332
+msg_105,mute,forward,High forwarded_count chain message from a sender with a history of dismissed and muted messages,0.9,message_0233;message_0373
+msg_002,notify,urgent,Direct mention of user and urgent request for call before meeting,1.0,message_0266;message_0003;message_0371
+msg_010,digest,promotion,"Verified business with recent engagement, but opted out of promotions",0.8,message_0011;message_0242;message_0075
+msg_078,mute,scam,High forwarded_count and suspicious content with urgent action request,0.9,message_0211;message_0212
+msg_013,mute,promotion,"User has muted, dismissed, or opted out of this sender's messages.",0.85,message_0081;message_0082
+msg_018,mute,scam,High forwarded_count and history of dismissed messages from this sender,0.9,message_0026;message_0091;message_0092
+msg_044,mute,scam,Domain mismatch and urgent verification pressure,0.9,message_0143;message_0144;message_0036
+msg_032,digest,event,"Group discussion about sharing slides, no safety risk",0.9,message_0119;message_0285;message_0120
+msg_106,notify,event,trusted sender with recent history and no risk signals,0.95,message_0234;message_0376;message_0377
+msg_006,digest,event,Group admin sent a non-urgent update in a society group,0.9,message_0029;message_0044;message_0067
+msg_109,notify,urgent,Trusted admin sent a time-sensitive update with a direct ask,1.0,message_0151;message_0150;message_0099
+msg_108,mute,scam,Sender domain does not match the brand's official domain (lookalike phishing).,1.0,message_0094;message_0093;message_0236
+msg_019,mute,scam,Sender domain does not match the brand's official domain (lookalike phishing).,0.95,message_0094;message_0093;message_0236
+msg_088,digest,personal,Sender is a marketplace group member with a history of dismissed messages,0.8,message_0115;message_0232;message_0050
+msg_056,notify,urgent,Direct mention of the user with a time-sensitive request,1.0,message_0359;message_0226;message_0168
+msg_027,digest,promotion,Verified business with mismatched domain sending travel package promotion,0.8,message_0272;message_0033;message_0007
+msg_050,digest,business_update,Verified business with matching domain sending a legitimate update,0.9,message_0279;message_0155;message_0156
+msg_083,digest,personal,Trusted group admin sent a non-urgent personal request,0.9,message_0219
+msg_063,mute,scam,"Unverified sender asks for payment with a QR code, indicating a potential scam.",0.9,message_0182;message_0181
+msg_033,digest,personal,casual greeting from an active contact,0.9,message_0121;message_0122;message_0372
+msg_061,mute,greeting,High forwarded_count and user muted the group,0.9,message_0080;message_0042;message_0079
+msg_020,mute,scam,Domain mismatch and urgent verification request from unverified sender,0.9,message_0114;message_0096;message_0066
+msg_017,mute,scam,Sender's domain mismatch with official domain and urgent payment request,0.9,message_0090;message_0089
+msg_058,mute,spam,High forwarded_count chain message from a muted group,0.9,message_0039;message_0241;message_0078
+msg_026,mute,scam,Sender domain does not match the brand's official domain (lookalike phishing).,1.0,message_0032;message_0107;message_0108
+msg_047,notify,event,Trusted group admin sent a time-sensitive update,1.0,message_0099;message_0029;message_0044
+msg_046,mute,scam,"Unverified sender asks for OTP, indicating a potential scam.",1.0,message_0148;message_0147
+msg_042,notify,urgent,Trusted group admin sent a time-sensitive update,1.0,message_0140;message_0058;message_0057
+msg_079,mute,scam,Sender's domain mismatch and urgent verification request,0.9,message_0369;message_0053;message_0213
+msg_098,notify,personal,Urgent direct ask from a trusted close contact,0.9,message_0359;message_0168;message_0226
+msg_037,notify,urgent,trusted group admin sending a time-sensitive update,0.9,message_0130;message_0150;message_0190
+msg_007,digest,event,society group update from trusted admin,0.9,message_0069;message_0070
+msg_085,mute,scam,Sender domain does not match the brand's official domain (lookalike phishing).,1.0,message_0221
+msg_001,notify,urgent,Trusted group admin sending time-sensitive update,1.0,message_0140;message_0058;message_0240
+msg_021,digest,business_update,Verified group admin sending a legitimate business update,0.9,message_0068;message_0098;message_0001
+msg_028,mute,promotion,User opted out of travel promotions and has a history of dismissing messages from this sender.,0.9,message_0034;message_0112;message_0111
+msg_012,mute,spam,High forwarded_count and user has muted all previous messages from this sender,0.9,message_0079;message_0247;message_0194
+msg_064,mute,promotion,High forwarded_count and user has muted all previous messages from this sender,0.9,message_0024;message_0087;message_0183
+msg_103,notify,personal,Direct personal request from a trusted contact,1.0,message_0065;message_0231;message_0382
+msg_031,notify,event,Trusted group admin sending a time-sensitive operational update,1.0,message_0117;message_0118;message_0362
+msg_057,notify,urgent,trusted group admin direct mention of user with urgent request,1.0,message_0003;message_0266;message_0169
+msg_087,mute,scam,High dismissed rate and reported messages from this sender indicate a scam risk.,0.9,message_0391;message_0389;message_0164
+msg_067,digest,business_update,Verified admin in a society group sending a maintenance payment update,0.9,message_0068;message_0098;message_0067
+msg_039,notify,urgent,trusted group admin sent a time-sensitive direct mention,1.0,message_0364;message_0255;message_0037
+msg_082,notify,urgent,Trusted group admin with direct mention of incident bridge and urgent payment issue,1.0,message_0380;message_0218;message_0397
+msg_066,mute,promotion,User opted out of this sender and has dismissed most of their messages,0.9,message_0188;message_0187
+msg_049,digest,business_update,Verified business with matching domain sending order update,0.9,message_0154;message_0291;message_0153
+msg_015,mute,scam,Unverified sender asks for OTP verification,1.0,message_0045;message_0023;message_0174
+msg_051,mute,promotion,User opted out of this sender and has dismissed all past messages,1.0,message_0257;message_0103;message_0158
+msg_097,digest,personal,casual one-to-one chat with a trusted contact,1.0,message_0054;message_0225;message_0167
+msg_089,digest,personal,First contact from a new sender with a casual message,0.8,none
+msg_053,digest,business_update,investment tips from a trusted group admin,0.9,message_0253;message_0161;message_0411
+msg_059,mute,scam,Domain mismatch and urgent payment request from unverified sender,0.9,message_0174;message_0173;message_0214
+msg_024,mute,promotion,User opted out of this sender and has dismissed all past messages,1.0,message_0257;message_0103;message_0158
+msg_072,mute,scam,Domain mismatch and urgent verification pressure with a link to a suspicious domain,0.9,message_0045;message_0023;message_0174
+msg_036,mute,scam,Sender domain does not match the brand's official domain (lookalike phishing).,0.95,message_0283;message_0127;message_0128
+msg_076,mute,scam,Sender domain does not match the brand's official domain (lookalike phishing).,0.95,message_0207;message_0159;message_0208
+msg_055,notify,urgent,Direct urgent request from a group member,1.0,message_0387;message_0166;message_0165
+msg_102,notify,urgent,Trusted sender with a time-sensitive update,0.95,message_0371;message_0230;message_0169
+msg_080,digest,event,Group admin message in a society group with no safety risk,0.9,message_0067;message_0097;message_0043
+msg_093,digest,business_update,Verified business with no safety risk and user has no prior relationship,0.9,none
+msg_034,mute,greeting,"User has muted, dismissed, or opted out of this sender's messages.",0.9,message_0077;message_0171;message_0123
+msg_035,digest,promotion,Verified business with matching domain sending a promotional message,0.9,message_0281;message_0125;message_0126
+msg_101,digest,personal,casual one-to-one chat from a trusted contact,1.0,message_0370;message_0229;message_0268
+msg_041,mute,scam,Domain mismatch between sender's domain and official domain,1.0,message_0137;message_0138
+msg_011,mute,greeting,High forwarded_count and user muted the group,0.9,message_0077;message_0171;message_0123
+msg_110,mute,scam,"Unverified sender asks for login code, indicating a phishing attempt.",1.0,message_0238;message_0381
+msg_095,mute,scam,Domain mismatch and high-risk request for wallet PIN,1.0,message_0024;message_0087;message_0183
+msg_074,mute,spam,High forwarded_count and user has muted all previous messages from this sender,0.9,message_0389;message_0203;message_0204
+msg_073,mute,scam,Domain mismatch and urgent verification pressure,0.9,message_0184;message_0088;message_0202
+msg_054,mute,scam,"Unverified sender asking for payment via link, with a sense of urgency.",0.9,message_0163;message_0358;message_0389
+msg_068,digest,personal,casual group chat from a known sender,0.9,message_0191;message_0192
+msg_100,notify,urgent,Time-sensitive direct ask from a trusted contact,1.0,message_0362;message_0228;message_0117
+msg_062,digest,event,society group update from trusted admin,0.9,message_0043;message_0067;message_0097
+msg_096,digest,personal,Benign greeting from an unfamiliar sender with no risk signals.,0.9,none
+msg_043,notify,event,trusted group admin sending time-sensitive update,0.9,message_0068;message_0098;message_0130
+msg_077,notify,event,Trusted group admin sent a time-sensitive school trip update,1.0,message_0051;message_0364;message_0255
+msg_081,notify,event,Trusted group admin sending a time-sensitive group update,1.0,message_0217
+msg_025,digest,business_update,Verified business with matching domain sending order update,0.9,message_0239;message_0004;message_0105
+msg_084,mute,scam,User opted out of loan promotions and has a history of dismissing and muting this sender's messages.,1.0,message_0220
+msg_022,digest,business_update,"Verified business sending a payment update, but user has muted sender before.",0.8,message_0151;message_0149;message_0099
