@@ -1,0 +1,1 @@
+{"action": "mute", "message_type": "scam", "reason": "The message attempts to trick the user into revealing an OTP, which is a common scam tactic.", "confidence": 1.0}

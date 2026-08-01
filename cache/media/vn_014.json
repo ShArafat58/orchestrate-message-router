@@ -1,8 +1,8 @@
 {
-  "kind": "voice_note",
-  "text": "Hi, I'm Sahana. Called you regards to a new launch by Brigade in Whitefield. Spread across massive 40 acres, which has commercial school, hospital and residential apartments. 1, 2, 3 and 4 BHK apartments starting 1 crore to 4 crore. Expression of interest has just started. Dial 1 if you're interested to know more, dial 2 to submit your EOI, dial 5 to repeat and dial 8 to stop receiving message and to unsubscribe.",
-  "summary": "The speaker, Sahana, is calling about a new property launch by Brigade in Whitefield, offering various apartments and facilities, and inviting expressions of interest.",
-  "topic": "Property launch",
+  "kind": "other",
+  "text": "",
+  "summary": "(media could not be understood)",
+  "topic": "unknown",
   "asks_for_sensitive_action": false,
   "media_id": "vn_014"
 }

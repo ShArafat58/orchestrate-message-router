@@ -1,8 +1,8 @@
 {
-  "kind": "voice_note",
-  "text": "I've kept the blue jacket aside for you. If you still want it, please confirm before I show it to someone else.",
-  "summary": "The speaker wants the recipient to confirm if they still want the blue jacket.",
-  "topic": "Blue jacket",
+  "kind": "other",
+  "text": "",
+  "summary": "(media could not be understood)",
+  "topic": "unknown",
   "asks_for_sensitive_action": false,
   "media_id": "vn_012"
 }

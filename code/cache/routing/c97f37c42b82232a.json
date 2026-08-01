@@ -1,0 +1,1 @@
+{"action": "notify", "message_type": "payment", "reason": "This is a payment update from a verified bank, which is important for the user to review.", "confidence": 0.95}

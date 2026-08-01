@@ -1,0 +1,8 @@
+{
+  "kind": "voice_note",
+  "text": "Your airport pickup for tomorrow has moved to 6:15 AM. The driver and hotel booking remained the same.",
+  "summary": "The airport pickup time for tomorrow has been changed to 6:15 AM.",
+  "topic": "Airport pickup",
+  "asks_for_sensitive_action": false,
+  "media_id": "vn_009"
+}

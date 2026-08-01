@@ -1,0 +1,1 @@
+{"action": "mute", "message_type": "forward", "reason": "High forwarded_count chain message from a sender the user has muted before", "confidence": 0.9}

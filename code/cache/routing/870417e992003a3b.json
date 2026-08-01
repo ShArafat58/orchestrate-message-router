@@ -1,0 +1,1 @@
+{"action": "mute", "message_type": "forward", "reason": "The message is a chain forward from a sender the user has historically ignored, and the group is muted, despite a generic direct mention.", "confidence": 0.9}

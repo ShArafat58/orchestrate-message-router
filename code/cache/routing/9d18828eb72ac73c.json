@@ -1,0 +1,1 @@
+{"action": "digest", "message_type": "business_update", "reason": "Verified business sending a payment update, but user has muted sender before.", "confidence": 0.8}

@@ -1,8 +1,8 @@
 {
-  "kind": "photo",
-  "text": "Jio Mart",
-  "summary": "A brown paper bag with the \"Jio Mart\" logo is placed on a white desk, with a window view in the background.",
-  "topic": "shopping",
+  "kind": "other",
+  "text": "",
+  "summary": "(media could not be understood)",
+  "topic": "unknown",
   "asks_for_sensitive_action": false,
   "media_id": "img_007"
 }

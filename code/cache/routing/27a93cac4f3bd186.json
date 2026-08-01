@@ -1,0 +1,1 @@
+{"action": "digest", "message_type": "business_update", "reason": "Sender is a group member and not the admin, and the user has muted this sender before.", "confidence": 0.8}
